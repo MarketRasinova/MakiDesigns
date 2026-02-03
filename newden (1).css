@@ -1,0 +1,384 @@
+@-moz-document url-prefix("https://www.wolvden.com/den/17304") {
+   @import url('https://fonts.googleapis.com/css2?family=Marmelad&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+
+body {
+    background-image: url('https://i.imgur.com/MsdR1Fa.jpeg');
+    font-family: Marmelad;
+    font-size: 14px;
+}
+
+/***Navigaèní menu***/
+
+div.info1 b, div.info1 i, div.info1 u, div.info1 strike, div.info2 b, div.info2 i, div.info2 u, div.info2 strike {color: #fff !important;}
+
+div.info2 {
+background-color: #081014;
+color: #8bc1be;
+font-family: calibri !important;
+font-size: 14px !important;
+padding: 7px;
+text-align: justify;
+line-height: 110%;
+margin: 5px 0 5px 0;
+border-radius: 5px;
+}
+
+
+.navbar-main {
+background: #271e1900 !important;
+border: none !important;
+box-shadow: none !important;
+font-family: 'Marmelad';
+font-size: 14px !important; 
+}
+.navbar-main .nav-link {
+color: #fefefe !important;
+transition: all .3s linear !important;
+}
+/*pøejetí pøes název menu tlapa a tak*/
+.navbar-main .nav-link:hover {
+color: #fff !important;
+transition: all .3s linear !important;
+}
+
+.navbar-main .nav-link .fa {
+color: #bfc55b !important;
+transition: all .2s linear !important;
+text-decoration: none;
+}
+/*Pøejetí pøes ikony menu (tlapa a tak)*/
+.navbar-main .nav-link:hover .fa {
+color: #bfc55b !important;
+transition: all .2s linear !important;
+text-decoration: none;
+}
+
+/*BG peníze*/
+.navbar-status {
+background-color: #1e1d12de !important;
+border-radius: 15px 15px 0px 0px;
+color: #fff !important;
+}
+.navbar-status a {
+color: #fff !important;
+transition: all .3s linear !important;
+}
+/*Najetí na peníze*/
+.navbar-status a:hover {
+color: #bfc55b !important;
+transition: all .3s linear !important;
+}
+/*User text*/
+.text-light {
+color: #bfc55b !important;
+}
+
+/*bg menu-user*/
+.breadcrumb-nav {
+background-color: #47452b !important;
+color: #CED1D8 !important;
+}
+/*Home-user*/
+.breadcrumb-nav a {
+color: #fff !important;
+transition: all .3s linear !important;
+}
+/*Najetí na Home-user*/
+.breadcrumb-nav a:hover {
+color: #bfc55b !important;
+transition: all .3s linear !important;
+}
+
+.breadcrumb-item.active {color: #fff !important;}
+.breadcrumb-item + .breadcrumb-item::before {color: #fefefe;}
+
+/***SIDEBAR***/
+
+.justify-content-between.mb-3 div {border: none !important;border-radius:0px;}
+
+#sidebar {background:linear-gradient(#8d877b4d, #ffffff8f) !important; padding-top: 15px;} 
+#sidebar .card {
+color: #fff !important;
+background-color: #20254a00 !important;
+border-radius: 8px;
+overflow: hidden;
+} 
+#sidebar .card a, #sidebar .card a:hover  {font-weight: 400 !important;} 
+
+
+#sidebar h3, #sidebar h4 {
+color: #fff;
+font-family: 'Marmelad';
+} 
+
+img.card-img-top {
+  border-radius: 8px;}
+
+ img {
+  border-radius: 7px}
+
+div.card.mb-3 {
+  border-radius: 16px;}
+
+a {
+color: #ffffff !important;  
+}
+
+
+#sidebar h3 a, #sidebar h4 a {color: #fff !important;} 
+#sidebar h3 a:hover, #sidebar h4 a:hover {color: #fff !important;} 
+.card-body {background-color: #1e1d12de !important;}
+/*barva fontù v menu*/
+#sidebar #card-user h3, #sidebar #card-user h3 a{font-size: 28px; color: #fff !important;} 
+#sidebar #card-user h3 a:hover {color: #bfc55b !important;} 
+
+
+/***ALERTS & BARS***/
+
+.alert-info {
+background-color: #d1cdb5 !important;
+color: #492b11  !important;
+border-radius: 15px;
+border: none;
+} 
+.alert-info a {color: #797600  !important;    text-shadow: none;}  
+.alert-info a:hover {color: #fffed4  !important;}  
+
+.alert-danger {
+background-color: #d1cdb5 !important;
+color: #492b11  !important;
+border: none;
+        text-shadow: none;
+} 
+.alert-danger a {color: #492b11  !important;    text-shadow: none;} 
+.alert-danger a:hover {color: #797600  !important;} 
+
+.alert-success {
+background-color: #47452b !important;
+color: #fff  !important;
+border: none;
+}
+.alert-success a {color: #fff  !important;} 
+.alert-success a:hover {color: #fff  !important;} 
+
+
+.progress {
+background-color: #ffffffc7 !important;
+}
+.bg-warning {
+background-color: #bccf29 !important;
+} 
+.bg-danger {
+background-color: #d38239 !important;
+} 
+.bg-info {
+background-color: #af3333 !important;
+} 
+.bg-success {
+background-color: #bebebe !important;
+}
+.bg-primary {
+background-color: #f5d41c !important;
+} 
+
+/*** DEN STRÁNKA***/
+
+#main {
+background:linear-gradient(#8d877b4d, #ffffff8f) !important;
+color: #fff !important;
+font-size: 14px;
+} 
+
+/*Nadpis Maple a èíslo*/
+h1 {
+color: #edead7 !important;
+font-size: 50px !important;
+text-align: center;
+font-family: "Gochi Hand", cursive;
+}
+
+tr{
+background-color: #838322    
+}
+
+/*Èudlíky profilu*/
+.nav-tabs {
+border-bottom: none;
+justify-content: center !important;
+} 
+.nav-tabs .nav-link  {
+background-color: #1e1d12de !important;
+border-radius: 15px;
+color: #fff !important;
+border: 0;
+margin-right: 15px;
+} 
+.nav-tabs .nav-link.active  {
+background-color: #bfc55b !important;
+border: 0;
+}
+.nav-tabs a:hover {
+background-color: #808529 !important;
+border: 0;
+}
+
+div.text-break {
+background-color: #10152b00;
+color: #fff;
+border-radius: 25px;
+ padding: 5px;
+ line-height: 110%;
+}
+
+
+/*Friend list box*/
+.table tr {
+background-color: #8f8e7fdb !important;
+font-size: 13px;
+} 
+.table tr a:hover {color: #efedb6 !important;} 
+
+.table td {color: #fff !important;}
+.table td.b {color: #f0f1d7 !important;} 
+
+/*Friend list øádek*/
+.table th {
+background-color: #595733 !important;
+border-radius: 15px 15px 0px 0px;
+color: #fff;
+font-size: 14px;
+font-family: 'Marmelad', serif;
+text-align: center !important;
+} 
+/*View all tlaèítko*/
+.table th a {font-weight: 500 !important; color: #d1cea1 !important;} 
+.table th a:hover {color: #bfc55b !important;} 
+
+/*Edit menu*/
+.table .left {background-color: #f625e5 !important;}
+.table .right {background-color: #f62ede !important;}
+
+.ml-3, .mx-3 {
+font-size: 14px;
+}
+/*Vyplòování údajù v edit menu*/
+.form-control {
+color: #fff;
+background-color: #595733;
+border-radius: 15px;
+border: 2px solid #454426;
+font-family: 'Marmelad';
+}
+
+/*Save button*/
+.btn-danger, .btn-primary, .btn-warning, .btn-warning.disabled, .btn-warning:disabled, .btn-success  {
+background-color: #20254A;
+border-bottom: none;
+color: #fff !important;
+}
+.btn-danger:hover, .btn-primary:hover, .btn-warning:hover, .btn-success:hover {
+background-color: #bfc55b;
+border-bottom: none;
+}
+
+/*Edit profilu*/
+.note-toolbar.card-header {background: #47452b !important; border-radius: 15px 15px 0px 0px;}
+.note-toolbar .note-btn {background: #fff; border-radius: 5px 5px 5px 5px;}
+
+.note-editor.note-airframe .note-editing-area .note-editable, .note-editor.note-frame .note-editing-area .note-editable
+{background: #1e1d12de; color: #fff; border: 1px solid #fff0;}
+.note-editor.note-frame .note-statusbar .note-resizebar {
+background: #ab471000;
+}
+
+/*Upozornìní u jména*/
+.text-muted {color: #47452b !important;}
+
+/*CHAT*/
+.s-chat-message a, .s-chat-message_content a {color: #ffffffe0 !important;} 
+.s-chat-message a:hover, .s-chat-message_content a:hover {color: #fff !important;} 
+
+.s-chat-message:nth-child(2n+1) {background-color: #d1cdb5 !important; color: #492b11 !important;}
+.s-chat-message:nth-child(2n) {background-color: #dcd4c3 !important; color: #492b11 !important;}
+.s-chat-message_timestamp {color: #492b11 !important;}
+#chatMessagePinned.s-chat-message__pinned {background: #dec88e  url('static.wolvden.com/images/layout/chat/sticky.png') no-repeat 10px 6px; color: #492b11;}
+#chatMessageContainer {border: none;}
+
+/***FOOTER***/
+
+#footer {background-color: #838322 !important; border-radius: 15px 15px 0px 0px;}
+
+.credit {
+position: fixed !important;
+bottom: 10px;
+right: 5px;
+width: 50px;
+height: 50px;
+transition: all .6s linear !important;
+font-size: 11px;
+text-align: center;
+}
+.creditext{
+width:50px; 
+height:50px; 
+background:#bc1c1c; 
+opacity: 0; 
+transition: all .3s linear !important;
+font-size: 11px;
+font-family: Marmalad;
+text-align: center;
+padding-top: 2px;
+color:#bfc55b !important; 
+} 
+.creditext:hover {
+opacity: 0.7; 
+text-align: center; 
+font-size: 11px; 
+}
+    
+    .card-body.pt-1.pb-1 {
+    background-color: #595733 !important;}
+    
+    .col-6 .card.text-center .card-header {
+    background-color: #00000026 !important;
+    color: #fff !important;
+    font-size: 14px;
+    font-family: 'Marmelad', serif;
+}
+    
+    .table .subheader {
+    background-color: #a3a17a !important;
+    color: #fff;
+}
+    
+    .btn-info {
+    color: #fff;
+    background-color: #8b8955;
+    border-color: #848724;
+}
+    
+    .btn-info {
+    border-bottom-color: #655910;
+}
+    
+    .table .bottom, .table tfoot td {
+    color: #ededed;
+    text-align: center;
+    background-color: #352f1f !important;
+    border-radius: 0px 0px 15px 15px;
+        }
+    
+    .btn-danger, .btn-primary, .btn-warning, .btn-warning.disabled, .btn-warning:disabled, .btn-success {
+    background-color: #595733;;
+    border-bottom: none;
+    color: #fff !important;
+}
+    
+    .btn-info:hover {
+    color: #fff;
+    background-color: #bfc55b;
+    border-color: #bfc55b;
+}
